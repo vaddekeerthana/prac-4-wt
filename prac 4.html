@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Text Styles and Layouts</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 30px;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 700px;
+            margin: auto;
+            background-color: white;
+            padding: 25px;
+        }
+
+        h1 {
+            font-size: 28px;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 15px;
+        }
+
+        h2 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .intro {
+            font-size: 16px;
+            margin-bottom: 15px;
+        }
+
+        .layout {
+            display: flex;
+            gap: 12px;
+        }
+
+        .box {
+            flex: 1;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 15px;
+            min-height: 125px;
+        }
+
+        .box h3 {
+            font-size: 18px;
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+
+        .sidebar-text {
+            font-style: italic;
+            line-height: 1.5;
+        }
+
+        .main-text {
+            line-height: 1.5;
+            font-size: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>CSS Text Styles and Layouts</h1>
+
+        <h2>Simple Web Layout Using CSS</h2>
+
+        <p class="intro">
+            This is a simple example of a web layout using various CSS text styles.
+        </p>
+
+        <div class="layout">
+
+            <div class="box">
+                <h3>Sidebar</h3>
+
+                <p class="sidebar-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+            </div>
+
+            <div class="box">
+                <h3>Main Content</h3>
+
+                <p class="main-text">
+                    SED DO EIUSMOD TEMPOR INCIDIDUNT UT LABORE ET
+                    DOLORE MAGNA ALIQUA.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
